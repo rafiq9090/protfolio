@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaTwitter, FaFacebook, FaLinkedin, FaPinterestP } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
-
 function Hero() {
   return (
     <section id="home" className="hero">
@@ -33,7 +32,7 @@ function Hero() {
         </button>
       </div>
       <div className="hero-image">
-        <img src="/Assets/Md.Rafiqul_Islam_0.png" alt="Rafiqul Islam" loading='Lazy'/>
+      <img src="https://rafiq9090.github.io/protfolio/Assets/Md.Rafiqul_Islam_0.png" alt="Rafiqul Islam" loading="lazy" />
       </div>
     </section>
   );
