@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import About from './components/About';
@@ -12,17 +13,19 @@ import PortfolioSchema from './components/PortfolioSchema';
 
 function App() {
   return (
-    <div className="App">
-       <PortfolioSchema />
-      <Header />
-      <Hero/>
-      <About />
-      <Collaborations />
-      <Skills />
-      <Projects/>
-      <Contact />
-      <Footer />
-    </div>
+    <BrowserRouter basename="/protfolio">
+      <div className="App">
+        <PortfolioSchema />
+        <Header />
+        <Hero />
+        <About />
+        <Collaborations />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 
