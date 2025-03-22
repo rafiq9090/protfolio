@@ -32,7 +32,7 @@ function Hero() {
         </button>
       </div>
       <div className="hero-image">
-      <img src="https://rafiq9090.github.io/protfolio/Assets/Md.Rafiqul_Islam_0.png" alt="Rafiqul Islam" loading="lazy" />
+      <img src="https://rafiq9090.github.io/mdrafiqulislam/Assets/Md.Rafiqul_Islam_0.png" alt="Rafiqul Islam" loading="lazy" />
       </div>
     </section>
   );

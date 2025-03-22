@@ -16,7 +16,7 @@ function About() {
       </div>
       <div class="about-image">
         <div class="circle-wrapper">
-          <img src="https://rafiq9090.github.io/protfolio/Assets/Md.Rafiqul_Islam_0.png" alt="Md Rafiqul Islam" />
+          <img src="https://rafiq9090.github.io/mdrafiqulislam/Assets/Md.Rafiqul_Islam_0.png" alt="Md Rafiqul Islam" />
         </div>
       </div>
     </div>
